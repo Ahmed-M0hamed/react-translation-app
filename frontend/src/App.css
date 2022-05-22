@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+
+button {
+  height: 40px;
+
+
+  align-items: center;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(180deg, #020202 0%, #000000 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+p {
+  font-weight: bolder;
+  font-size: large; 
+}
+textarea {
+  resize: none;
+  width: 100%; 
+  height: 100%; 
+  padding: 10px; 
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: large;
+  background-color: rgb(156, 168, 168);
+}
+.translation {
+  width: 1200px; 
+  height: 200px; 
+  padding: 10px;
+}
+.translation div {
+  display: inline-block; 
+  width: 40% ; 
+  height: 100% ;
+  margin: 20px;
+
+}
+.translation div span p {
+  display: inline-block;
+  width: 100%; 
+  height: 78%; 
+  text-align: left;
+  padding: 10px; 
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(156, 168, 168);
+}
